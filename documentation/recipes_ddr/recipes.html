@@ -1,0 +1,3776 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<link href="Styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<p>
+<span class="partheading"><a name="valFileOptionOverviewSectionAnchor_"/>recipes.fmp12</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Overview</td><td class="chartsubheads" width="1%">&nbsp;</td><td class="chartsubheads" colSpan="2">File Options</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="32%">Tables</td><td class="regularcharttext" width="8%"><a href="#valTablesSectionAnchor_">3</a></td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg" width="%26">Default custom menu set</td><td class="regularcharttext" width="33%">[Standard FileMaker Menus]</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Relationships</td><td class="regularcharttext"><a href="#valRelationshipsSectionAnchor_">3</a></td><td class="regularcharttext">&nbsp;</td><td class="chartsubheads" colSpan="2">When opening file</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts</td><td class="regularcharttext"><a href="#valLayoutsSectionAnchor_">9</a></td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg" width="%26">Login using</td><td class="regularcharttext" width="33%">Account Name; Account= <a href="#2AccountAnchor_">Admin</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts</td><td class="regularcharttext"><a href="#valScriptsSectionAnchor_">1</a></td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg">Switch to layout</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Value Lists</td><td class="regularcharttext">0</td><td class="regularcharttext">&nbsp;</td><td class="chartsubheads" colSpan="2">Script triggers</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions</td><td class="regularcharttext">0</td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg">OnFirstWindowOpen</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Accounts</td><td class="regularcharttext"><a href="#valAccountsSectionAnchor_">2</a></td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg">OnLastWindowClose</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Privilege Sets</td><td class="regularcharttext"><a href="#valPrivilegeSetsSectionAnchor_">3</a></td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg">OnWindowOpen</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Extended Privileges</td><td class="regularcharttext"><a href="#valExtendedPrivilegesSectionAnchor_">6</a></td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg">OnWindowClose</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">File Access (in / out)</td><td class="regularcharttext">0
+						/
+						0</td><td class="regularcharttext">&nbsp;</td><td class="chartsubheads" colSpan="2">Thumbnail Settings</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">FileMaker Data Sources</td><td class="regularcharttext">0</td><td class="regularcharttext">&nbsp;</td><td class="chartheadersnobg">Generate Thumbnails</td><td class="regularcharttext">On; Temporary</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">ODBC Data Sources</td><td class="regularcharttext">0</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Menu Sets</td><td class="regularcharttext">0</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Menus</td><td class="regularcharttext">0</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<span class="partheading"><a name="valTablesSectionAnchor_"/>Tables</span>
+</p>
+<table width="95%" border="1">
+<tbody>
+<tr class="chartheaders" vAlign="top">
+<td width="15%">Table Name</td><td width="29%">
+<div align="left">Statistics</div>
+</td><td width="29%">Occurrences in Relationship Graph</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a href="#129BaseTableAnchor_">recipes</a></td><td>
+<div align="left"><a href="#129BaseTableAnchor_">13 fields</a> defined, 3 records</div>
+</td><td><a href="#1065089TableAnchor_"><em>recipes</em></a></td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a href="#133BaseTableAnchor_">recipe_ingredients</a></td><td>
+<div align="left"><a href="#133BaseTableAnchor_">10 fields</a> defined, 33 records</div>
+</td><td><a href="#1065100TableAnchor_"><em>recipe_ingredients ordered</em></a>, <a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a></td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a href="#134BaseTableAnchor_">recipe_tags</a></td><td>
+<div align="left"><a href="#134BaseTableAnchor_">4 fields</a> defined, 8 records</div>
+</td><td><a href="#1065094TableAnchor_"><em>recipe_tags</em></a></td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading"><a name="valFieldsSectionAnchor_"/>Fields</span>
+</p>
+		<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td colSpan="9">Table Name: <a name="129BaseTableAnchor_"/>recipes - 13 Fields</td>
+</tr>
+<tr class="chartheaders" vAlign="top">
+<td width="8%">Field Name</td><td width="7%">Type</td><td width="14%">Options</td><td width="10%">Comments</td><td width="13%">On Layouts</td><td width="15%">In Relationships</td><td width="22%">In Scripts</td><td width="11%">In Value Lists</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1292FieldAnchor_"/>id</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+<li>Do not replace existing value for field (if any)</li>
+<li>Context table: <a href="#1065089TableAnchor_"><em>recipes</em></a><br>Calculation: <strong>Get</strong> ( <strong>UUID</strong> )</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#recipe_tags=recipesRelationshipAnchor_"><em>recipe_tags=recipes</em></a></li>
+<li><a href="#recipe_ingredients=recipesRelationshipAnchor_"><em>recipe_ingredients=recipes</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1291FieldAnchor_"/>Name</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1293FieldAnchor_"/>Description</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1295FieldAnchor_"/>Photo</td><td>Normal, Binary</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1296FieldAnchor_"/>URL</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#1ScriptAnchor_">Open URL in web viewer if exists</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1297FieldAnchor_"/>Instructions</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1298FieldAnchor_"/>Author</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1299FieldAnchor_"/>tags</td><td>Calculated, Text</td><td><strong>Calculation:</strong>
+<ul>
+<li>Context table: <a href="#1065089TableAnchor_"><em>recipes</em></a></li>
+<li>
+<strong>Substitute</strong> ( <strong>List</strong> ( <a href="#1341FieldAnchor_"><em>recipe_tags</em>::Tag</a> ) ; "&para;"; ", ")</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Do not store calculation results</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="12910FieldAnchor_"/>Ingredients formatted</td><td>Calculated, Text</td><td><strong>Calculation:</strong>
+<ul>
+<li>Context table: <a href="#1065089TableAnchor_"><em>recipes</em></a></li>
+<li>
+<strong>List</strong> ( <a href="#13311FieldAnchor_"><em>recipe_ingredients</em>::Ingredient_formatted</a> )</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Do not store calculation results</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="12911FieldAnchor_"/>Ingredients Grouping</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="12912FieldAnchor_"/>Secondary Grouping</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="12913FieldAnchor_"/>Yield</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="12914FieldAnchor_"/>Yield_calc</td><td>Calculated, Text</td><td><strong>Calculation:</strong>
+<ul>
+<li>Context table: <a href="#1065089TableAnchor_"><em>recipes</em></a></li>
+<li>
+<strong>If</strong> (  <strong>not</strong> <strong>IsEmpty</strong> ( <a href="#12913FieldAnchor_"><em>recipes</em>::Yield</a> ); "&para;Yield: " &amp; <a href="#12913FieldAnchor_"><em>recipes</em>::Yield</a>; "")</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+		</tbody>
+</table>
+	<br>
+		<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td colSpan="9">Table Name: <a name="133BaseTableAnchor_"/>recipe_ingredients - 10 Fields</td>
+</tr>
+<tr class="chartheaders" vAlign="top">
+<td width="8%">Field Name</td><td width="7%">Type</td><td width="14%">Options</td><td width="10%">Comments</td><td width="13%">On Layouts</td><td width="15%">In Relationships</td><td width="22%">In Scripts</td><td width="11%">In Value Lists</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1332FieldAnchor_"/>id</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+<li>Do not replace existing value for field (if any)</li>
+<li>Context table: <a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a><br>Calculation: <strong>Get</strong> ( <strong>UUID</strong> )</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1333FieldAnchor_"/>recipe_id</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: All</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#recipe_ingredients=recipesRelationshipAnchor_"><em>recipe_ingredients=recipes</em></a></li>
+<li><a href="#recipe_ingredients=recipe_ingredients orderedRelationshipAnchor_"><em>recipe_ingredients=recipe_ingredients ordered</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1334FieldAnchor_"/>Order</td><td>Normal, Number</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+<li>Do not replace existing value for field (if any)</li>
+<li>Context table: <a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a><br>Calculation: <strong>Case</strong> (  <strong>not</strong> <strong>IsEmpty</strong> ( <a href="#1334FieldAnchor_"><em>recipe_ingredients ordered</em>::Order</a> ); <strong>Max</strong> ( <a href="#1334FieldAnchor_"><em>recipe_ingredients ordered</em>::Order</a>  ) + 1; 1 )</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: All</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1331FieldAnchor_"/>Ingredient</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1335FieldAnchor_"/>qty</td><td>Normal, Number</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1339FieldAnchor_"/>unit</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13310FieldAnchor_"/>Grouping</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13311FieldAnchor_"/>Ingredient_formatted</td><td>Calculated, Text</td><td><strong>Calculation:</strong>
+<ul>
+<li>Context table: <a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a></li>
+<li>
+<strong>If</strong> ( <a href="#1334FieldAnchor_"><em>recipe_ingredients</em>::Order</a> = 1 <strong>and</strong> ( <strong>not</strong> <strong>IsEmpty</strong> ( <a href="#13310FieldAnchor_"><em>recipe_ingredients</em>::Grouping</a> )) ; <a href="#13310FieldAnchor_"><em>recipe_ingredients</em>::Grouping</a> &amp; "&para;"; "") &amp; 
+"	" &amp; 
+<a href="#13312FieldAnchor_"><em>recipe_ingredients</em>::qty metric</a> &amp; "	" &amp; 
+<a href="#13313FieldAnchor_"><em>recipe_ingredients</em>::unit metric</a> &amp; "	" &amp; 
+<a href="#1335FieldAnchor_"><em>recipe_ingredients</em>::qty</a> &amp; "	" &amp; 
+<a href="#1339FieldAnchor_"><em>recipe_ingredients</em>::unit</a> &amp;"	" &amp; 
+<a href="#1331FieldAnchor_"><em>recipe_ingredients</em>::Ingredient</a></li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13312FieldAnchor_"/>qty metric</td><td>Normal, Number</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13313FieldAnchor_"/>unit metric</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+		</tbody>
+</table>
+	<br>
+		<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td colSpan="9">Table Name: <a name="134BaseTableAnchor_"/>recipe_tags - 4 Fields</td>
+</tr>
+<tr class="chartheaders" vAlign="top">
+<td width="8%">Field Name</td><td width="7%">Type</td><td width="14%">Options</td><td width="10%">Comments</td><td width="13%">On Layouts</td><td width="15%">In Relationships</td><td width="22%">In Scripts</td><td width="11%">In Value Lists</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1342FieldAnchor_"/>id</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+<li>Do not replace existing value for field (if any)</li>
+<li>Context table: <a href="#1065094TableAnchor_"><em>recipe_tags</em></a><br>Calculation: <strong>Get</strong> ( <strong>UUID</strong> )</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1343FieldAnchor_"/>recipe_id</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#recipe_tags=recipesRelationshipAnchor_"><em>recipe_tags=recipes</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1341FieldAnchor_"/>Tag</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: Minimal</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="1344FieldAnchor_"/>Order</td><td>Normal, Number</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+		</tbody>
+</table>
+	
+<p>
+<span class="partheading"><a name="valBaseDirectoriesSectionAnchor_"/>Base Directories</span>
+</p>
+<table width="95%" border="1">
+<tbody>
+<tr class="chartheaders" vAlign="top">
+<td width="5%">ID</td><td width="95%">Path</td>
+</tr>
+<tr class="regularcharttext">
+<td>0</td><td>Files/recipes/</td>
+</tr>
+</tbody>
+</table>
+
+	<p>
+<span class="partheading"><a name="valRelationshipsSectionAnchor_"/>Relationships: Table Occurrences</span>
+</p>
+<table width="100%" border="1">
+<tr class="chartheaders" vAlign="top">
+<td width="9%">Table Occurrence</td><td width="13%">Source Table</td><td width="11%">Source File</td><td width="16%">In Relationships</td><td width="12%">In Scripts</td><td width="16%">In Field Definitions</td><td width="13%">In Value Lists</td><td width="10%">Associated with layouts</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td bgColor="#777777"><a name="1065100TableAnchor_"/><em>recipe_ingredients ordered</em></td><td><a href="#133BaseTableAnchor_">recipe_ingredients</a></td><td>recipes.fmp12</td><td>
+<ul>
+<li><a href="#recipe_ingredients=recipe_ingredients orderedRelationshipAnchor_"><em>recipe_ingredients=recipe_ingredients ordered</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#1334FieldAnchor_"><em>recipe_ingredients</em>::Order</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td bgColor="#777777"><a name="1065093TableAnchor_"/><em>recipe_ingredients</em></td><td><a href="#133BaseTableAnchor_">recipe_ingredients</a></td><td>recipes.fmp12</td><td>
+<ul>
+<li><a href="#recipe_ingredients=recipesRelationshipAnchor_"><em>recipe_ingredients=recipes</em></a></li>
+<li><a href="#recipe_ingredients=recipe_ingredients orderedRelationshipAnchor_"><em>recipe_ingredients=recipe_ingredients ordered</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#12910FieldAnchor_"><em>recipes</em>::Ingredients formatted</a></li>
+<li><a href="#13311FieldAnchor_"><em>recipe_ingredients</em>::Ingredient_formatted</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td bgColor="#777777"><a name="1065094TableAnchor_"/><em>recipe_tags</em></td><td><a href="#134BaseTableAnchor_">recipe_tags</a></td><td>recipes.fmp12</td><td>
+<ul>
+<li><a href="#recipe_tags=recipesRelationshipAnchor_"><em>recipe_tags=recipes</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#1299FieldAnchor_"><em>recipes</em>::tags</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td bgColor="#777777"><a name="1065089TableAnchor_"/><em>recipes</em></td><td><a href="#129BaseTableAnchor_">recipes</a></td><td>recipes.fmp12</td><td>
+<ul>
+<li><a href="#recipe_tags=recipesRelationshipAnchor_"><em>recipe_tags=recipes</em></a></li>
+<li><a href="#recipe_ingredients=recipesRelationshipAnchor_"><em>recipe_ingredients=recipes</em></a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#1ScriptAnchor_">Open URL in web viewer if exists</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#12914FieldAnchor_"><em>recipes</em>::Yield_calc</a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td>
+</tr>
+</table>
+	<p>
+<span class="partheading"><a name="valDetailsSectionAnchor_"/>Relationships: Details</span>
+</p>
+<p>
+<span class="partheading">Relationship: <a name="recipe_tags=recipesRelationshipAnchor_"/><em>recipe_tags=recipes</em></span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="18%">Table Occurrence</td><td class="regularcharttext" bgColor="#777777"><a href="#1065094TableAnchor_"><em>recipe_tags</em></a></td><td class="regularcharttext"></td><td class="regularcharttext" bgColor="#777777"><a href="#1065089TableAnchor_"><em>recipes</em></a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Field</td><td class="regularcharttext"><a href="#1343FieldAnchor_">recipe_id</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#1292FieldAnchor_">id</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Source Table</td><td class="regularcharttext"><a href="#134BaseTableAnchor_">recipe_tags</a></td><td class="regularcharttext"></td><td class="regularcharttext"><a href="#129BaseTableAnchor_">recipes</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Source File</td><td class="regularcharttext">recipes.fmp12</td><td class="regularcharttext"></td><td class="regularcharttext">recipes.fmp12</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Allow creation of records via this relationship</td><td class="regularcharttext">On</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Delete related records in this table when a record is deleted in the other table</td><td class="regularcharttext">On</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Sort records</td><td class="regularcharttext">
+<p>Off</p>
+</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading">Relationship: <a name="recipe_ingredients=recipesRelationshipAnchor_"/><em>recipe_ingredients=recipes</em></span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="18%">Table Occurrence</td><td class="regularcharttext" bgColor="#777777"><a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a></td><td class="regularcharttext"></td><td class="regularcharttext" bgColor="#777777"><a href="#1065089TableAnchor_"><em>recipes</em></a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Field</td><td class="regularcharttext"><a href="#1333FieldAnchor_">recipe_id</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#1292FieldAnchor_">id</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Source Table</td><td class="regularcharttext"><a href="#133BaseTableAnchor_">recipe_ingredients</a></td><td class="regularcharttext"></td><td class="regularcharttext"><a href="#129BaseTableAnchor_">recipes</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Source File</td><td class="regularcharttext">recipes.fmp12</td><td class="regularcharttext"></td><td class="regularcharttext">recipes.fmp12</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Allow creation of records via this relationship</td><td class="regularcharttext">On</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Delete related records in this table when a record is deleted in the other table</td><td class="regularcharttext">Off</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Sort records</td><td class="regularcharttext">
+<p>On</p>
+<p>Field: <a href="#13310FieldAnchor_">Grouping</a></p>
+<ul>
+<li>Ascending order</li>
+<li>Reorder based on summary field: Off</li>
+<li>Override field's language for sort: Off</li>
+</ul>
+<p>Field: <a href="#1334FieldAnchor_">Order</a></p>
+<ul>
+<li>Ascending order</li>
+<li>Reorder based on summary field: Off</li>
+<li>Override field's language for sort: Off</li>
+</ul>
+</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading">Relationship: <a name="recipe_ingredients=recipe_ingredients orderedRelationshipAnchor_"/><em>recipe_ingredients=recipe_ingredients ordered</em></span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="18%">Table Occurrence</td><td class="regularcharttext" bgColor="#777777"><a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a></td><td class="regularcharttext"></td><td class="regularcharttext" bgColor="#777777"><a href="#1065100TableAnchor_"><em>recipe_ingredients ordered</em></a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Field</td><td class="regularcharttext"><a href="#1333FieldAnchor_">recipe_id</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#1333FieldAnchor_">recipe_id</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Source Table</td><td class="regularcharttext"><a href="#133BaseTableAnchor_">recipe_ingredients</a></td><td class="regularcharttext"></td><td class="regularcharttext"><a href="#133BaseTableAnchor_">recipe_ingredients</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Source File</td><td class="regularcharttext">recipes.fmp12</td><td class="regularcharttext"></td><td class="regularcharttext">recipes.fmp12</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Allow creation of records via this relationship</td><td class="regularcharttext">Off</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Delete related records in this table when a record is deleted in the other table</td><td class="regularcharttext">Off</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Sort records</td><td class="regularcharttext">
+<p>Off</p>
+</td><td class="regularcharttext"></td><td class="regularcharttext">Off</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<span class="partheading"><a name="valLayoutsSectionAnchor_"/>Layouts</span>
+</p>
+<p>
+<span class="partheading">Layout Hierarchy<p></p>
+<table class="script_hier">
+<tbody>
+<tr>
+<td class="script_hier"><a name="9LayoutAnchor_toc"></a><a href="#9LayoutAnchor_">View Recipe</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="7LayoutAnchor_toc"></a><a href="#7LayoutAnchor_">Edit Recipe</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="11LayoutAnchor_toc"></a><a href="#11LayoutAnchor_">Recipe List</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="10LayoutAnchor_toc"></a><a href="#10LayoutAnchor_">Web View</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="1LayoutAnchor_toc"></a><a href="#1LayoutAnchor_">recipes</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="4LayoutAnchor_toc"></a><a href="#4LayoutAnchor_">Recipe Ingredients</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="5LayoutAnchor_toc"></a><a href="#5LayoutAnchor_">Recipe Tags</a></td>
+</tr>
+</tbody>
+</table>
+</span>
+</p>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" vAlign="top">
+<td width="10%">Layout Name</td><td width="5%">Include In Menu</td><td width="5%">Quick Find</td><td width="13%"># of Objects</td><td width="10%">Show Records From</td><td width="10%">Save record changes automatically</td><td width="8%">Show field frames when record is active</td><td width="8%">Show field frames only on current record</td><td width="10%">Used in Scripts</td><td width="13%">Custom Menu Set</td><td width="16%">Script Triggers</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="9LayoutAnchor_"/>View Recipe</td><td>Yes</td><td>Yes</td><td>
+<ul>
+<li><a href="#9LayoutObjectsAnchor_Regular Fields">1 Regular Fields</a></li>
+<li><a href="#9LayoutObjectsAnchor_Merge Fields">4 Merge Fields</a></li>
+<li><a href="#9LayoutObjectsAnchor_Group Buttons">1 Group Buttons</a></li>
+<li><a href="#9LayoutObjectsAnchor_Graphic Objects">1 Graphic Objects</a></li>
+</ul>
+</td><td><a href="#1065089TableAnchor_"><em>recipes</em></a></td><td>On</td><td>Off</td><td>On</td><td></td><td>[File Default]</td><td></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="7LayoutAnchor_"/>Edit Recipe</td><td>Yes</td><td>Yes</td><td>
+<ul>
+<li><a href="#7LayoutObjectsAnchor_Regular Fields">15 Regular Fields</a></li>
+<li><a href="#7LayoutObjectsAnchor_Merge Fields">1 Merge Fields</a></li>
+<li><a href="#7LayoutObjectsAnchor_Group Buttons">3 Group Buttons</a></li>
+<li><a href="#7LayoutObjectsAnchor_Portals">2 Portals</a></li>
+</ul>
+</td><td><a href="#1065089TableAnchor_"><em>recipes</em></a></td><td>On</td><td>Off</td><td>On</td><td></td><td>[File Default]</td><td></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="11LayoutAnchor_"/>Recipe List</td><td>Yes</td><td>Yes</td><td>
+<ul>
+<li><a href="#11LayoutObjectsAnchor_Regular Fields">3 Regular Fields</a></li>
+<li><a href="#11LayoutObjectsAnchor_Group Buttons">1 Group Buttons</a></li>
+</ul>
+</td><td><a href="#1065089TableAnchor_"><em>recipes</em></a></td><td>On</td><td>Off</td><td>On</td><td></td><td>[File Default]</td><td></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="10LayoutAnchor_"/>Web View</td><td>No</td><td>Yes</td><td>
+<ul>
+<li><a href="#10LayoutObjectsAnchor_Merge Fields">1 Merge Fields</a></li>
+<li><a href="#10LayoutObjectsAnchor_Buttons">1 Buttons</a></li>
+<li><a href="#10LayoutObjectsAnchor_Web Viewer Controls">1 Web Viewer Controls</a></li>
+</ul>
+</td><td><a href="#1065089TableAnchor_"><em>recipes</em></a></td><td>On</td><td>Off</td><td>On</td><td>
+<ul>
+<li><a href="#1ScriptAnchor_">Open URL in web viewer if exists</a></li>
+</ul>
+</td><td>[File Default]</td><td></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="1LayoutAnchor_"/>recipes</td><td>No</td><td>Yes</td><td>
+<ul>
+<li><a href="#1LayoutObjectsAnchor_Regular Fields">7 Regular Fields</a></li>
+<li><a href="#1LayoutObjectsAnchor_Merge Fields">1 Merge Fields</a></li>
+<li><a href="#1LayoutObjectsAnchor_Web Viewer Controls">1 Web Viewer Controls</a></li>
+</ul>
+</td><td><a href="#1065089TableAnchor_"><em>recipes</em></a></td><td>On</td><td>Off</td><td>On</td><td></td><td>[File Default]</td><td></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="4LayoutAnchor_"/>Recipe Ingredients</td><td>No</td><td>Yes</td><td>
+<ul>
+<li><a href="#4LayoutObjectsAnchor_Regular Fields">10 Regular Fields</a></li>
+</ul>
+</td><td><a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a></td><td>On</td><td>Off</td><td>On</td><td></td><td>[File Default]</td><td></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="5LayoutAnchor_"/>Recipe Tags</td><td>No</td><td>Yes</td><td>
+<ul>
+<li><a href="#5LayoutObjectsAnchor_Regular Fields">4 Regular Fields</a></li>
+</ul>
+</td><td><a href="#1065094TableAnchor_"><em>recipe_tags</em></a></td><td>On</td><td>Off</td><td>On</td><td></td><td>[File Default]</td><td></td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading">Layout Objects: <a href="#9LayoutAnchor_">View Recipe</a></span>
+</p>
+<p>
+<span class="partheading"><a name="9LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1295FieldAnchor_"><em>recipes</em>::Photo</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="9Field112.000000018.0000000423.0000000748.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 112 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 423 pt</li>
+<li>Right: 748 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="9LayoutObjectsAnchor_Merge Fields"/>Merge Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="9Text430.000000018.00000001430.0000000748.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Ingredients formatted&gt;&gt;&#13;&#13;&lt;&lt;Instructions&gt;&gt;&#13;&lt;&lt;Yield_calc&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 430 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 1430 pt</li>
+<li>Right: 748 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top and Bottom</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#12910FieldAnchor_"><em>recipes</em>::Ingredients formatted</a></li>
+<li><a href="#1297FieldAnchor_"><em>recipes</em>::Instructions</a></li>
+<li><a href="#12914FieldAnchor_"><em>recipes</em>::Yield_calc</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="9Text6.000000018.000000052.0000000429.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Name&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 6 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 52 pt</li>
+<li>Right: 429 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1291FieldAnchor_"><em>recipes</em>::Name</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Text0.00000000.000000018.0000000411.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;URL&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 0 pt</li>
+<li>Left: 0 pt</li>
+<li>Bottom: 18 pt</li>
+<li>Right: 411 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1296FieldAnchor_"><em>recipes</em>::URL</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="9Text11.0000000443.000000078.0000000748.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>Author: &lt;&lt;Author&gt;&gt;&#13;Tags: &lt;&lt;tags&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 11 pt</li>
+<li>Left: 443 pt</li>
+<li>Bottom: 78 pt</li>
+<li>Right: 748 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1298FieldAnchor_"><em>recipes</em>::Author</a></li>
+<li><a href="#1299FieldAnchor_"><em>recipes</em>::tags</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="9LayoutObjectsAnchor_Group Buttons"/>Group Buttons</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="9GroupButton57.000000018.000000075.0000000429.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: &lt;&lt;URL&gt;&gt;</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Change to hand cursor over button</li>
+<li>Rectangular</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 57 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 75 pt</li>
+<li>Right: 429 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="3">Perform Script [ &ldquo;Open URL in web viewer if exists&rdquo; ]<p>
+<b>Scripts:</b>
+</p>
+<ul>
+<li><a href="#1ScriptAnchor_">Open URL in web viewer if exists</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="9LayoutObjectsAnchor_Graphic Objects"/>Graphic Objects</span>
+</p>
+<table border="1" width="100%">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Graphic Object Properties</td><td colspan="3">Coordinates</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3">
+<ul>
+<b>Type:</b>
+<li>Text: &lt;&lt;URL&gt;&gt;</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td><td colspan="3">
+<ul>
+<li>Top: 0 pt</li>
+<li>Left: 0 pt</li>
+<li>Bottom: 18 pt</li>
+<li>Right: 411 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tr class="chartheaders">
+<td width="18%">Conditional Formatting</td><td align="center" width="43%">Condition</td><td align="center" width="39%">Format</td>
+</tr>
+<tr class="regularcharttext">
+<tr class="regularcharttext">
+<td align="right" valign="top"><b>1.</b></td><td valign="top">
+<ul>
+<li>Formula: <strong>IsEmpty</strong> ( <a href="#1296FieldAnchor_"><em>recipes</em>::URL</a> )</li>
+</ul>
+</td><td valign="top" align="left">
+<ul>
+<br>self<br>{<br>	color: rgba(100%,100%,100%,0);<br>}<br>
+</ul>
+</td>
+</tr>
+</tr>
+</table>
+<br>
+<p>
+<span class="partheading">Layout Objects: <a href="#7LayoutAnchor_">Edit Recipe</a></span>
+</p>
+<p>
+<span class="partheading"><a name="7LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1291FieldAnchor_"><em>recipes</em>::Name</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field84.000000018.0000000118.0000000385.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 84 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 118 pt</li>
+<li>Right: 385 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1293FieldAnchor_"><em>recipes</em>::Description</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field152.000000018.0000000227.0000000395.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 152 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 227 pt</li>
+<li>Right: 395 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+<li>Include vertical scrollbar</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1331FieldAnchor_"><em>recipe_ingredients</em>::Ingredient</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.0000000266.000000035.0000000528.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 266 pt</li>
+<li>Bottom: 35 pt</li>
+<li>Right: 528 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+<li>Auto-complete using previously entered values</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1335FieldAnchor_"><em>recipe_ingredients</em>::qty</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.00000002.000000035.000000068.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 2 pt</li>
+<li>Bottom: 35 pt</li>
+<li>Right: 68 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1339FieldAnchor_"><em>recipe_ingredients</em>::unit</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.000000068.000000035.0000000134.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 68 pt</li>
+<li>Bottom: 35 pt</li>
+<li>Right: 134 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+<li>Auto-complete using previously entered values</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13310FieldAnchor_"><em>recipe_ingredients</em>::Grouping</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.0000000528.000000035.0000000669.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 528 pt</li>
+<li>Bottom: 35 pt</li>
+<li>Right: 669 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13312FieldAnchor_"><em>recipe_ingredients</em>::qty metric</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.0000000134.000000035.0000000200.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 134 pt</li>
+<li>Bottom: 35 pt</li>
+<li>Right: 200 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13313FieldAnchor_"><em>recipe_ingredients</em>::unit metric</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.0000000200.000000035.0000000266.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 200 pt</li>
+<li>Bottom: 35 pt</li>
+<li>Right: 266 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+<li>Auto-complete using previously entered values</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1297FieldAnchor_"><em>recipes</em>::Instructions</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field639.000000021.0000000865.0000000538.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 639 pt</li>
+<li>Left: 21 pt</li>
+<li>Bottom: 865 pt</li>
+<li>Right: 538 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Bottom</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+<li>Include vertical scrollbar</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1341FieldAnchor_"><em>recipe_tags</em>::Tag</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field2.00000001.000000036.0000000131.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 2 pt</li>
+<li>Left: 1 pt</li>
+<li>Bottom: 36 pt</li>
+<li>Right: 131 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+<li>Auto-complete using previously entered values</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1295FieldAnchor_"><em>recipes</em>::Photo</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field84.0000000413.0000000343.0000000739.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 84 pt</li>
+<li>Left: 413 pt</li>
+<li>Bottom: 343 pt</li>
+<li>Right: 739 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1296FieldAnchor_"><em>recipes</em>::URL</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field882.0000000379.0000000916.0000000704.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 882 pt</li>
+<li>Left: 379 pt</li>
+<li>Bottom: 916 pt</li>
+<li>Right: 704 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Bottom</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1298FieldAnchor_"><em>recipes</em>::Author</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field259.000000018.0000000293.0000000230.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 259 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 293 pt</li>
+<li>Right: 230 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1292FieldAnchor_"><em>recipes</em>::id</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field889.000000053.0000000913.0000000318.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 889 pt</li>
+<li>Left: 53 pt</li>
+<li>Bottom: 913 pt</li>
+<li>Right: 318 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Bottom</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#12913FieldAnchor_"><em>recipes</em>::Yield</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Field259.0000000239.0000000293.0000000395.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 259 pt</li>
+<li>Left: 239 pt</li>
+<li>Bottom: 293 pt</li>
+<li>Right: 395 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="7LayoutObjectsAnchor_Merge Fields"/>Merge Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Text7.000000018.000000041.0000000743.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>{{LayoutName}}</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 7 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 41 pt</li>
+<li>Right: 743 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="2">
+<ul></ul>
+</td><td colspan="2">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="7LayoutObjectsAnchor_Group Buttons"/>Group Buttons</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="GroupButton7.0000000672.000000031.0000000696.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Change to hand cursor over button</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 7 pt</li>
+<li>Left: 672 pt</li>
+<li>Bottom: 31 pt</li>
+<li>Right: 696 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="3">Delete Portal Row</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="GroupButton7.0000000136.000000031.0000000160.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Change to hand cursor over button</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 7 pt</li>
+<li>Left: 136 pt</li>
+<li>Bottom: 31 pt</li>
+<li>Right: 160 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="3">Delete Portal Row</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7GroupButton883.0000000711.0000000915.0000000743.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Change to hand cursor over button</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 883 pt</li>
+<li>Left: 711 pt</li>
+<li>Bottom: 915 pt</li>
+<li>Right: 743 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="3">Perform Script [ &ldquo;Open URL in web viewer if exists&rdquo; ]<p>
+<b>Scripts:</b>
+</p>
+<ul>
+<li><a href="#1ScriptAnchor_">Open URL in web viewer if exists</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="7LayoutObjectsAnchor_Portals"/>Portals</span>
+</p>
+<table border="1" width="100%">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Portal Properties</td><td colspan="1" width="15%">Coordinates</td><td colspan="1" width="10%">Fields</td><td colspan="2">Options</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Portal376.000000018.0000000605.0000000739.0000000LayoutObjectAnchor_"/><ul>
+<b>Table:</b>
+<li><a href="#1065093TableAnchor_"><em>recipe_ingredients</em></a></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 376 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 605 pt</li>
+<li>Right: 739 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top and Bottom</li>
+</ul>
+</td><td colspan="1">Field Objects<ul>
+<li><a href="#1331FieldAnchor_"><em>recipe_ingredients</em>::Ingredient</a> at (2, 266, 35, 528)</li>
+<li><a href="#1335FieldAnchor_"><em>recipe_ingredients</em>::qty</a> at (2, 2, 35, 68)</li>
+<li><a href="#1339FieldAnchor_"><em>recipe_ingredients</em>::unit</a> at (2, 68, 35, 134)</li>
+<li><a href="#13310FieldAnchor_"><em>recipe_ingredients</em>::Grouping</a> at (2, 528, 35, 669)</li>
+<li><a href="#13312FieldAnchor_"><em>recipe_ingredients</em>::qty metric</a> at (2, 134, 35, 200)</li>
+<li><a href="#13313FieldAnchor_"><em>recipe_ingredients</em>::unit metric</a> at (2, 200, 35, 266)</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Sort records: Off</li>
+<li>Filter calculation: None</li>
+<li>Initial Row: 1</li>
+<li>Number of Rows: 6</li>
+<li>Show vertical scroll bar</li>
+<li>Allow deletion of portal records</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table border="1" width="100%">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Portal Properties</td><td colspan="1" width="15%">Coordinates</td><td colspan="1" width="10%">Fields</td><td colspan="2">Options</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="7Portal639.0000000556.0000000868.0000000739.0000000LayoutObjectAnchor_"/><ul>
+<b>Table:</b>
+<li><a href="#1065094TableAnchor_"><em>recipe_tags</em></a></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 639 pt</li>
+<li>Left: 556 pt</li>
+<li>Bottom: 868 pt</li>
+<li>Right: 739 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Bottom</li>
+</ul>
+</td><td colspan="1">Field Objects<ul>
+<li><a href="#1341FieldAnchor_"><em>recipe_tags</em>::Tag</a> at (2, 1, 36, 131)</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Sort records: Off</li>
+<li>Filter calculation: None</li>
+<li>Initial Row: 1</li>
+<li>Number of Rows: 6</li>
+<li>Show vertical scroll bar</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading">Layout Objects: <a href="#11LayoutAnchor_">Recipe List</a></span>
+</p>
+<p>
+<span class="partheading"><a name="11LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1291FieldAnchor_"><em>recipes</em>::Name</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="11Field79.000000016.0000000113.0000000392.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 79 pt</li>
+<li>Left: 16 pt</li>
+<li>Bottom: 113 pt</li>
+<li>Right: 392 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1295FieldAnchor_"><em>recipes</em>::Photo</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Field0.00000000.000000034.000000058.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 0 pt</li>
+<li>Left: 0 pt</li>
+<li>Bottom: 34 pt</li>
+<li>Right: 58 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1299FieldAnchor_"><em>recipes</em>::tags</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="11Field79.0000000392.0000000113.0000000682.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 79 pt</li>
+<li>Left: 392 pt</li>
+<li>Bottom: 113 pt</li>
+<li>Right: 682 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="11LayoutObjectsAnchor_Group Buttons"/>Group Buttons</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="11GroupButton79.0000000688.0000000113.0000000746.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li><a href="#1295FieldAnchor_"><em>recipes</em>::Photo</a></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#11LayoutAnchor_">Recipe List</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Change to hand cursor over button</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 79 pt</li>
+<li>Left: 688 pt</li>
+<li>Bottom: 113 pt</li>
+<li>Right: 746 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="3">Go to Layout [ &ldquo;View Recipe&rdquo; (recipes) ]<p>
+<b>Layouts:</b>
+</p>
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading">Layout Objects: <a href="#10LayoutAnchor_">Web View</a></span>
+</p>
+<p>
+<span class="partheading"><a name="10LayoutObjectsAnchor_Merge Fields"/>Merge Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="10Text7.000000020.000000039.0000000654.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>Web view: &lt;&lt;Name&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 7 pt</li>
+<li>Left: 20 pt</li>
+<li>Bottom: 39 pt</li>
+<li>Right: 654 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1291FieldAnchor_"><em>recipes</em>::Name</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="10LayoutObjectsAnchor_Buttons"/>Buttons</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="10Button3.0000000671.000000041.0000000755.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: back</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 3 pt</li>
+<li>Left: 671 pt</li>
+<li>Bottom: 41 pt</li>
+<li>Right: 755 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="3">Go to Layout [ $$lastLayout ]</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="10LayoutObjectsAnchor_Web Viewer Controls"/>Web Viewer Controls</span>
+</p>
+<table border="1" width="100%">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2" width="40%">Web Viewer Control Properties</td><td width="20%" colspan="2">Coordinates</td><td width="40%" colspan="2">Web Address</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="10ExternalObject50.00000009.0000000380.0000000755.0000000LayoutObjectAnchor_"/><ul>
+<b>Object Name:</b>
+<li>recipe_site</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Allow interaction with web viewer content</li>
+<li>Display progress bar</li>
+<li>Display status messages</li>
+<li>Automatically encode URL</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 50 pt</li>
+<li>Left: 9 pt</li>
+<li>Bottom: 380 pt</li>
+<li>Right: 755 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top and Bottom</li>
+</ul>
+</td><td colspan="2"><a href="#1296FieldAnchor_"><em>recipes</em>::URL</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading">Layout Objects: <a href="#1LayoutAnchor_">recipes</a></span>
+</p>
+<p>
+<span class="partheading"><a name="1LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1293FieldAnchor_"><em>recipes</em>::Description</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field59.0000000252.0000000232.0000000512.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 59 pt</li>
+<li>Left: 252 pt</li>
+<li>Bottom: 232 pt</li>
+<li>Right: 512 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1295FieldAnchor_"><em>recipes</em>::Photo</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field59.000000014.0000000232.0000000241.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 59 pt</li>
+<li>Left: 14 pt</li>
+<li>Bottom: 232 pt</li>
+<li>Right: 241 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1296FieldAnchor_"><em>recipes</em>::URL</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field153.0000000523.0000000187.0000000750.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 153 pt</li>
+<li>Left: 523 pt</li>
+<li>Bottom: 187 pt</li>
+<li>Right: 750 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1298FieldAnchor_"><em>recipes</em>::Author</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field84.0000000523.0000000118.0000000750.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 84 pt</li>
+<li>Left: 523 pt</li>
+<li>Bottom: 118 pt</li>
+<li>Right: 750 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1299FieldAnchor_"><em>recipes</em>::tags</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field240.0000000459.0000000274.0000000694.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 240 pt</li>
+<li>Left: 459 pt</li>
+<li>Bottom: 274 pt</li>
+<li>Right: 694 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1292FieldAnchor_"><em>recipes</em>::id</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field284.0000000138.0000000318.0000000695.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 284 pt</li>
+<li>Left: 138 pt</li>
+<li>Bottom: 318 pt</li>
+<li>Right: 695 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1291FieldAnchor_"><em>recipes</em>::Name</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Field242.000000081.0000000276.0000000351.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 242 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 276 pt</li>
+<li>Right: 351 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="1LayoutObjectsAnchor_Merge Fields"/>Merge Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1Text15.00000009.000000040.0000000512.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Name&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 15 pt</li>
+<li>Left: 9 pt</li>
+<li>Bottom: 40 pt</li>
+<li>Right: 512 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1291FieldAnchor_"><em>recipes</em>::Name</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="1LayoutObjectsAnchor_Web Viewer Controls"/>Web Viewer Controls</span>
+</p>
+<table border="1" width="100%">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2" width="40%">Web Viewer Control Properties</td><td width="20%" colspan="2">Coordinates</td><td width="40%" colspan="2">Web Address</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="1ExternalObject329.000000014.0000000656.0000000750.0000000LayoutObjectAnchor_"/><ul>
+<b>Object Name:</b>
+<li>recipe_site2</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#1LayoutAnchor_">recipes</a></li>
+</ul>
+<ul>
+<b>Additional Properties:</b>
+<li>Allow interaction with web viewer content</li>
+<li>Display progress bar</li>
+<li>Display status messages</li>
+<li>Automatically encode URL</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 329 pt</li>
+<li>Left: 14 pt</li>
+<li>Bottom: 656 pt</li>
+<li>Right: 750 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top and Bottom</li>
+</ul>
+</td><td colspan="2"><a href="#1296FieldAnchor_"><em>recipes</em>::URL</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading">Layout Objects: <a href="#4LayoutAnchor_">Recipe Ingredients</a></span>
+</p>
+<p>
+<span class="partheading"><a name="4LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1332FieldAnchor_"><em>recipe_ingredients</em>::id</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field47.000000081.000000069.0000000385.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 47 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 69 pt</li>
+<li>Right: 385 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1333FieldAnchor_"><em>recipe_ingredients</em>::recipe_id</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field71.000000081.000000093.0000000385.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 71 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 93 pt</li>
+<li>Right: 385 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1334FieldAnchor_"><em>recipe_ingredients</em>::Order</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field95.000000081.0000000117.0000000160.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 95 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 117 pt</li>
+<li>Right: 160 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1331FieldAnchor_"><em>recipe_ingredients</em>::Ingredient</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field148.0000000253.0000000192.0000000523.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 148 pt</li>
+<li>Left: 253 pt</li>
+<li>Bottom: 192 pt</li>
+<li>Right: 523 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1335FieldAnchor_"><em>recipe_ingredients</em>::qty</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field148.000000081.0000000170.0000000160.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 148 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 170 pt</li>
+<li>Right: 160 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13311FieldAnchor_"><em>recipe_ingredients</em>::Ingredient_formatted</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field225.000000018.0000000269.0000000532.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 225 pt</li>
+<li>Left: 18 pt</li>
+<li>Bottom: 269 pt</li>
+<li>Right: 532 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13310FieldAnchor_"><em>recipe_ingredients</em>::Grouping</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field95.0000000234.0000000117.0000000438.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 95 pt</li>
+<li>Left: 234 pt</li>
+<li>Bottom: 117 pt</li>
+<li>Right: 438 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1339FieldAnchor_"><em>recipe_ingredients</em>::unit</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field148.0000000165.0000000170.0000000244.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 148 pt</li>
+<li>Left: 165 pt</li>
+<li>Bottom: 170 pt</li>
+<li>Right: 244 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13312FieldAnchor_"><em>recipe_ingredients</em>::qty metric</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field173.000000081.0000000195.0000000160.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 173 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 195 pt</li>
+<li>Right: 160 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13313FieldAnchor_"><em>recipe_ingredients</em>::unit metric</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Field173.0000000165.0000000195.0000000244.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Recipe Ingredients</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 173 pt</li>
+<li>Left: 165 pt</li>
+<li>Bottom: 195 pt</li>
+<li>Right: 244 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading">Layout Objects: <a href="#5LayoutAnchor_">Recipe Tags</a></span>
+</p>
+<p>
+<span class="partheading"><a name="5LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1342FieldAnchor_"><em>recipe_tags</em>::id</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="5Field36.0000000138.000000058.0000000391.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 36 pt</li>
+<li>Left: 138 pt</li>
+<li>Bottom: 58 pt</li>
+<li>Right: 391 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1343FieldAnchor_"><em>recipe_tags</em>::recipe_id</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="5Field60.0000000138.000000082.0000000391.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 60 pt</li>
+<li>Left: 138 pt</li>
+<li>Bottom: 82 pt</li>
+<li>Right: 391 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1341FieldAnchor_"><em>recipe_tags</em>::Tag</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="5Field84.0000000138.0000000106.0000000391.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 84 pt</li>
+<li>Left: 138 pt</li>
+<li>Bottom: 106 pt</li>
+<li>Right: 391 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1344FieldAnchor_"><em>recipe_tags</em>::Order</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="5Field108.0000000138.0000000130.0000000217.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#5LayoutAnchor_">Recipe Tags</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 108 pt</li>
+<li>Left: 138 pt</li>
+<li>Bottom: 130 pt</li>
+<li>Right: 217 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+<p>
+<span class="partheading"><a name="valScriptsSectionAnchor_"/>Script Hierarchy</span>
+</p>
+<table class="script_hier">
+<tbody>
+<tr>
+<td class="script_hier"><a name="1ScriptAnchor_toc"></a><a href="#1ScriptAnchor_">Open URL in web viewer if exists</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="script_navbar">
+<tbody>
+<tr class="script_navbar">
+<a name="1ScriptAnchor_"></a><td class="script_navbar"></td><td class="script_navbar"></td><td class="script_navbar"></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td width="35%">Script Name</td><td width="65%">Open URL in web viewer if exists</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#9LayoutAnchor_">View Recipe</a></li>
+<li><a href="#7LayoutAnchor_">Edit Recipe</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Script Definition</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
+<ul>
+<li>If [ Get ( LayoutName )  &ne; "Web View"  and not IsEmpty ( recipes::URL ) ]</li>
+<li>Set Variable [ $$lastLayout; Value:Get ( LayoutName ) ]</li>
+<li>Go to Layout [ &ldquo;Web View&rdquo; (recipes) ]</li>
+<li>End If</li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1296FieldAnchor_"><em>recipes</em>::URL</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#10LayoutAnchor_">Web View</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#129BaseTableAnchor_">recipes</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1065089TableAnchor_"><em>recipes</em></a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="valAccountsSectionAnchor_"/>Accounts</span>
+</p>
+<table width="95%" border="1">
+<tbody>
+<tr class="chartheaders" vAlign="top">
+<td width="12%">Account Name</td><td width="13%">Password</td><td width="9%">Status</td><td width="6%">Type</td><td width="15%">Privilege Set</td><td width="15%">Description</td><td width="27%">User must change password on next login</td>
+</tr>
+<tr class="regularcharttext">
+<td><a name="1AccountAnchor_"/>[Guest]</td><td>*********</td><td>Inactive</td><td>FileMaker</td><td><a href="#3PrivilegeSetAnchor_">[Read-Only Access]</a></td><td></td><td>Off</td>
+</tr>
+<tr class="regularcharttext">
+<td><a name="2AccountAnchor_"/>Admin</td><td></td><td>Active</td><td>FileMaker</td><td><a href="#1PrivilegeSetAnchor_">[Full Access]</a></td><td></td><td>Off</td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading"><a name="valPrivilegeSetsSectionAnchor_"/>Privilege Sets</span>
+</p>
+<table width="95%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td colSpan="2">Privilege Set: <a name="1PrivilegeSetAnchor_"/>[Full Access]</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Description</td><td class="regularcharttext" width="89%">access to everything</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Used by</td><td class="regularcharttext"><a href="#2AccountAnchor_">Admin</a></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="5">Data Access and Design</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Records</td><td class="regularcharttext" width="19%">Create, edit, and delete</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Layouts</td><td class="regularcharttext" width="19%">Modifiable</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Value Lists</td><td class="regularcharttext" width="19%">Modifiable</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Scripts</td><td class="regularcharttext" width="19%">Modifiable</td><td class="regularcharttext" width="70%"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="5">Other privileges</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow printing</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow exporting</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Manage extended privileges</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow user to override data validation warnings</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Disconnect user from FileMaker server when idle</td><td class="regularcharttext" width="13%">Off</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow user to modify their own password</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Available menu commands</td><td class="regularcharttext" width="13%">All</td><td class="regularcharttext" width="53%"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="4">Extended Privileges</td>
+</tr>
+<tr vAlign="top">
+<td class="regularcharttext"><a href="#4ExtendedPrivilegeAnchor_">fmreauthenticate10</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="95%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td colSpan="2">Privilege Set: <a name="2PrivilegeSetAnchor_"/>[Data Entry Only]</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Description</td><td class="regularcharttext" width="89%">write access to all records, no design access</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Used by</td><td class="regularcharttext"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="5">Data Access and Design</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Records</td><td class="regularcharttext" width="19%">Create, edit, and delete</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Layouts</td><td class="regularcharttext" width="19%">View only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Value Lists</td><td class="regularcharttext" width="19%">View only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Scripts</td><td class="regularcharttext" width="19%">Executable only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="5">Other privileges</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow printing</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow exporting</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Manage extended privileges</td><td class="regularcharttext" width="13%">Off</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow user to override data validation warnings</td><td class="regularcharttext" width="13%">Off</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Disconnect user from FileMaker server when idle</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow user to modify their own password</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Available menu commands</td><td class="regularcharttext" width="13%">All</td><td class="regularcharttext" width="53%"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="4">Extended Privileges</td>
+</tr>
+<tr vAlign="top">
+<td class="regularcharttext"><a href="#4ExtendedPrivilegeAnchor_">fmreauthenticate10</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="95%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td colSpan="2">Privilege Set: <a name="3PrivilegeSetAnchor_"/>[Read-Only Access]</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Description</td><td class="regularcharttext" width="89%">read access to all records, no design access</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Used by</td><td class="regularcharttext"><a href="#1AccountAnchor_">[Guest]</a></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="5">Data Access and Design</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Records</td><td class="regularcharttext" width="19%">View only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Layouts</td><td class="regularcharttext" width="19%">View only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Value Lists</td><td class="regularcharttext" width="19%">View only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="11%">Scripts</td><td class="regularcharttext" width="19%">Executable only</td><td class="regularcharttext" width="70%"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="5">Other privileges</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow printing</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow exporting</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Manage extended privileges</td><td class="regularcharttext" width="13%">Off</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow user to override data validation warnings</td><td class="regularcharttext" width="13%">Off</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Disconnect user from FileMaker server when idle</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Allow user to modify their own password</td><td class="regularcharttext" width="13%">On</td><td class="regularcharttext" width="53%"></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="34%">Available menu commands</td><td class="regularcharttext" width="13%">All</td><td class="regularcharttext" width="53%"></td>
+</tr>
+</tbody>
+</table>
+<table width="95%" border="1">
+<tbody>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="4">Extended Privileges</td>
+</tr>
+<tr vAlign="top">
+<td class="regularcharttext"><a href="#4ExtendedPrivilegeAnchor_">fmreauthenticate10</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="valExtendedPrivilegesSectionAnchor_"/>Extended Privileges</span>
+</p>
+<table width="95%" border="1">
+<tbody>
+<tr class="chartheaders" vAlign="top">
+<td width="16%">Keyword</td><td width="50%">Description</td><td width="34%">Privilege Set</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a name="1ExtendedPrivilegeAnchor_"/>fmiwp</td><td>Access via Instant Web Publishing</td><td></td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a name="2ExtendedPrivilegeAnchor_"/>fmxdbc</td><td>Access via ODBC/JDBC</td><td></td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a name="3ExtendedPrivilegeAnchor_"/>fmapp</td><td>Access via FileMaker Network</td><td></td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a name="4ExtendedPrivilegeAnchor_"/>fmreauthenticate10</td><td>Require re-authentication after the specified minutes in sleep/background.  Go only.</td><td>
+<ul>
+<li><a href="#1PrivilegeSetAnchor_">[Full Access]</a></li>
+<li><a href="#2PrivilegeSetAnchor_">[Data Entry Only]</a></li>
+<li><a href="#3PrivilegeSetAnchor_">[Read-Only Access]</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a name="5ExtendedPrivilegeAnchor_"/>fmxml</td><td>Access via XML Web Publishing - FMS only</td><td></td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td><a name="6ExtendedPrivilegeAnchor_"/>fmphp</td><td>Access via PHP Web Publishing - FMS only</td><td></td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading"><a name="valFileAccessSectionAnchor_"/>File Access</span>
+</p>
+<table width="95%" border="1">
+<tbody>
+<tr class="chartheaders" vAlign="top">
+<td width="100%" colSpan="3">File Access Options</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" width="30%">Block access by unauthorized files</td><td class="regularcharttext" width="13%">Off</td><td class="regularcharttext" width="57%"></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+<span class="partheading"><a name="valCustomMenuSetsSectionAnchor_"/>Custom Menu Sets</span>
+</p>
+<table border="1" cellpadding="1" cellspacing="1" width="100%">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td width="20%">Menu Sets</td><td width="20%">Menus</td><td width="20%">In Scripts</td><td width="20%">In Layouts</td><td width="20%">Comments</td>
+</tr>
+</tbody>
+</table>
+<p>
+<span class="partheading"><a name="valCustomMenusSectionAnchor_"/>Custom Menus</span>
+</p>
+
+
+</body>
+</html>
